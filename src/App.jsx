@@ -1,15 +1,10 @@
-import './App.css'
-import Navbar from './Navbar'
-import TechStack from './TechStack'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import Home from "./Home";
 
-function App() {
-  return (
-    <>
-      <Navbar/>
-      <h3> Hi my name is Herman and I am a software Engineer. I love building apps and solving problems. Here are some of my works</h3>
-      <TechStack/>
-    </>
-  )
-}
-
-export default App
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <Home />
+  </React.StrictMode>
+);
