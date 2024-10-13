@@ -27,15 +27,16 @@ const projects = [
   },
   {
     name: 'Foundation Center Website',
-    role: 'Non-Profit Website - Developed and maintaining the website for Foundation Center Inc. Built using Javascript, React, Next.js and hosted on AWS.',
+    role: 'Non-Profit Website - Developed and maintaining the website for Foundation Center Inc. Built using Javascript, React, and hosted on AWS.',
     imageUrl:
       'https://res.cloudinary.com/do1uqbdzs/image/upload/v1728360938/Foundation_Center_Home_k28fwu.png',
     figma:
       'https://www.figma.com/design/JUYzZ6V5WClDFYUce0pyeJ/Foundation-Web-Design?node-id=0-1&node-type=canvas&t=kdNIzL1jQfq4tVDp-0',
+    website: 'https://www.foundationcenterny.org/',
   },
   {
     name: 'Tangerine HR',
-    role: 'Open Source Project- Developed with an engineering team of 4. Tangerine is a onboarding and offboarding software solution for',
+    role: 'Open Source Project- Developed with an engineering team of 4. Tangerine is an open source onboarding and offboarding software solution.',
     imageUrl:
       'https://res.cloudinary.com/do1uqbdzs/image/upload/v1728361491/Tangerine_Offboard_tpfwln.png',
     github: 'https://github.com/Kiwano-Group/tangerine',
@@ -132,6 +133,16 @@ function ProjectCarousel() {
                       GitHub
                     </a>
                   )}
+                  {project.website && (
+                    <a
+                      href={project.website}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='text-teal-200 underline text-xl'
+                    >
+                      Website
+                    </a>
+                  )}
                   {project.figma && (
                     <a
                       href={project.figma}
@@ -197,18 +208,26 @@ function ProjectCarousel() {
           background-color: white;
         }
       `}</style>
-      <div className='text-teal-200 underline text-xl mt-20'>
+      <div className='text-teal-200 underline text-xl mt-20 flex flex-col items-center'>
         <a
           href='https://github.com/HermanChen4'
           target='_blank'
           rel='noopener noreferrer'
         >
           <img
-            src='https://i.pinimg.com/564x/f9/a6/12/f9a6129b0d10fd385e85a8cc50e25e15.jpg'
+            src='https://cdn-icons-png.flaticon.com/256/25/25231.png'
             alt='GitHub Logo'
             className='w-12 h-12'
           />
         </a>
+        <a
+          href='https://github.com/HermanChen4'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='mt-2'
+        >
+          My Github
+        </a>{' '}
       </div>
     </div>
   );
