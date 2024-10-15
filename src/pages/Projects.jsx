@@ -16,6 +16,12 @@ const projects = [
       'https://res.cloudinary.com/do1uqbdzs/image/upload/v1728364126/1_hdxnLgtlgz4B9lpqtmQLxA_gv9qq3.webp',
     ],
   },
+    {
+    name: 'Future Link',
+    role: 'Foundation Center Project - Mentor Mentee portal that matches mentees to mentors in their field of interests.',
+    imageUrl:
+      'https://res.cloudinary.com/do1uqbdzs/image/upload/v1728963285/Future_Link_vr0jto.png',
+  },
   {
     name: 'NYC Routes',
     role: 'Personal project - Mobile application that lets users save and view MTA bus and train routes. For iOS and Andriod devices. (releasing soon)',
@@ -27,7 +33,7 @@ const projects = [
   },
   {
     name: 'Foundation Center Website',
-    role: 'Non-Profit Website - Developed and maintaining the website for Foundation Center Inc. Built using Javascript, React, and hosted on AWS.',
+    role: 'Non-Profit Website - Developed and maintaining the website for Foundation Center Inc.',
     imageUrl:
       'https://res.cloudinary.com/do1uqbdzs/image/upload/v1728360938/Foundation_Center_Home_k28fwu.png',
     figma:
@@ -36,7 +42,7 @@ const projects = [
   },
   {
     name: 'Tangerine HR',
-    role: 'Open Source Project- Developed with an engineering team of 4. Tangerine is an open source onboarding and offboarding software solution.',
+    role: 'Open Source Project- Onboarding and offboarding software solution.',
     imageUrl:
       'https://res.cloudinary.com/do1uqbdzs/image/upload/v1728361491/Tangerine_Offboard_tpfwln.png',
     github: 'https://github.com/Kiwano-Group/tangerine',
